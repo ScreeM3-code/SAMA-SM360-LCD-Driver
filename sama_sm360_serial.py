@@ -49,6 +49,7 @@ class SamaSM360Serial:
             print(f"✗ Failed to connect: {e}")
             return False
 
+
     def _build_packet(self, cmd: int, subcmd: int, value: int = 0) -> bytes:
         """
         Build packet based on captured format
@@ -140,6 +141,130 @@ class SamaSM360Serial:
         except Exception as e:
             print(f"❌ Initialization failed: {e}")
             return False
+
+    def display_image(self, image_name: str, x: int = 0, y: int = 0):
+        """
+        Affiche une image (doit être présente dans le LCD)
+
+        Args:
+            image_name: Nom du fichier image
+            x, y: Position
+        """
+        packet = bytearray(250)
+        packet[0] = 0xc8
+        packet[1] = 0xef
+        packet[2] = 0x69
+        packet[6] = 0x00  # Type = Image
+
+        packet[7:9] = x.to_bytes(2, 'little')
+        packet[9:11] = y.to_bytes(2, 'little')
+
+        # Nom de l'image
+        img_bytes = image_name.encode('utf-8')
+        packet[17:17 + len(img_bytes)] = img_bytes
+
+        self.ser.write(bytes(packet))
+
+    def play_video(self, video_path: str = "/mnt/SDCARD/video/theme04.mp4"):
+        """
+        Jouer une vidéo sur le LCD
+
+        Args:
+            video_path: Chemin complet de la vidéo sur le LCD
+        """
+        # 1. Load video (essayer le chemin SD card en premier)
+        load_packet = bytearray(250)
+        load_packet[0] = 0x6e  # Load video
+        load_packet[1] = 0xef
+        load_packet[2] = 0x69
+        load_packet[6] = 0x1d  # Subcmd pour /mnt/SDCARD
+
+        # Chemin vidéo (UTF-8)
+        path_bytes = video_path.encode('utf-8')
+        load_packet[10:10 + len(path_bytes)] = path_bytes
+
+        self.ser.write(bytes(load_packet))
+        time.sleep(0.2)
+
+        # Lire la réponse (taille du fichier ou "0" si échec)
+        response = self._read_response(timeout=0.5)
+        if response and response[0] != ord('0'):
+            print(f"✓ Video loaded: {response.decode('utf-8').strip()[:20]} bytes")
+
+            # 2. Play video
+            play_packet = bytearray(250)
+            play_packet[0] = 0x78  # Play video
+            play_packet[1] = 0xef
+            play_packet[2] = 0x69
+            play_packet[6] = 0x1d  # Subcmd
+            play_packet[7] = 0x01  # Flag "play"
+            play_packet[10:10 + len(path_bytes)] = path_bytes
+
+            self.ser.write(bytes(play_packet))
+            time.sleep(0.2)
+
+            # Lire confirmation
+            response = self._read_response(timeout=0.5)
+            if response and b'success' in response:
+                print("✓ Video playing!")
+                return True
+
+        print("✗ Failed to load video")
+        return False
+
+    def display_data(self, data_type: str, value: str, x: int, y: int,
+                     font_size: int = 38, unit: str = ""):
+        """
+        Affiche une donnée système (CPU temp, heure, etc.)
+
+        Args:
+            data_type: Type de donnée (CPUTEMP, TIME, DATE, etc.)
+            value: Valeur à afficher
+            x, y: Position
+            font_size: Taille police
+            unit: Unité (°, RPM, etc.)
+        """
+        display_text = f"{value}{unit}"
+        self.display_text(display_text, x, y, font_size)
+
+    def display_text(self, text: str, x: int, y: int, font_size: int = 38,
+                     color_rgb: tuple = (255, 255, 255), alignment: int = 0):
+        """
+        Affiche du texte à l'écran
+
+        Args:
+            text: Texte à afficher (UTF-8)
+            x, y: Position en pixels
+            font_size: Taille de police
+            color_rgb: Couleur (R, G, B)
+            alignment: 0=gauche, 1=centre, 2=droite
+        """
+        packet = bytearray(250)
+        packet[0] = 0xc8  # Display command
+        packet[1] = 0xef
+        packet[2] = 0x69
+        packet[6] = 0x02  # Type = Text
+
+        # Position (little-endian, 2 bytes each)
+        packet[7:9] = x.to_bytes(2, 'little')
+        packet[9:11] = y.to_bytes(2, 'little')
+
+        packet[11] = font_size
+
+        # Couleur RGB
+        r, g, b = color_rgb
+        packet[12] = r
+        packet[13] = g
+        packet[14] = b
+
+        packet[16] = alignment
+
+        # Texte UTF-8
+        text_bytes = text.encode('utf-8')
+        packet[17:17 + len(text_bytes)] = text_bytes
+
+        self.ser.write(bytes(packet))
+
 
     def set_brightness(self, brightness: int) -> bool:
         """
@@ -300,6 +425,7 @@ def main():
             print("\n❌ Failed to initialize")
             return
 
+
         print("\n🔆 Testing brightness control...")
         for level in [100, 50, 100]:
             lcd.set_brightness(level)
@@ -328,4 +454,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main() 
+    main()
