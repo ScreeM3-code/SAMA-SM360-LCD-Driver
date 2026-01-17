@@ -1,0 +1,61 @@
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.000000       2.21.0                host                  USB      46     GET DESCRIPTOR Response DEVICE
+
+Frame 44: Packet, 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap2, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap2)
+        Interface name: \\.\USBPcap2
+        Interface description: USBPcap2
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Jan 16, 2026 00:57:46.833047000 Est
+    UTC Arrival Time: Jan 16, 2026 05:57:46.833047000 UTC
+    Epoch Arrival Time: 1768543066.833047000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 44
+    Frame Length: 46 bytes (368 bits)
+    Capture Length: 46 bytes (368 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+    Character encoding: ASCII (0)
+USB URB
+    [Source: 2.21.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 21
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 43]
+    [Time from request: 0.000000000 seconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Communications and CDC Control (0x02)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0
+    bMaxPacketSize0: 64
+    idVendor: QinHeng Electronics (0x1a86)
+    idProduct: Unknown (0xca21)
+    bcdDevice: 0x0100
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 3
+    bNumConfigurations: 1
+
+0000  1c 00 00 00 00 00 00 00 00 00 00 00 00 00 08 00   ................
+0010  01 02 00 15 00 80 02 12 00 00 00 03 12 01 00 02   ................
+0020  02 00 00 40 86 1a 21 ca 00 01 01 02 03 01         ...@..!.......
