@@ -1,0 +1,355 @@
+No.     Time           Source                Destination           Protocol Length Info
+  15425 22.715213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15425: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15426 22.715224      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15426: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15427 22.716214      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15427: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15428 22.716225      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15428: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15429 22.717213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15429: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000100ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15430 22.717224      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15430: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15431 22.718213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15431: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 020000020000000000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  00 00 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15432 22.718223      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15432: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15433 22.719213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15433: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000100ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15434 22.719222      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15434: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15435 22.720213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15435: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15436 22.720224      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15436: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15437 22.721216      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15437: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15438 22.721228      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15438: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15439 22.722214      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15439: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000100ffff0000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15440 22.722225      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15440: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15441 22.723213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15441: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15442 22.723224      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15442: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15443 22.724103      2.11.4                host                  USB      27     URB_INTERRUPT in
+
+Frame 15443: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 f0 f3 26 9f 8a 80 ff ff 11 00 00 c0 09 00   ....&...........
+0010  01 02 00 0b 00 84 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15444 22.724207      host                  2.11.4                USB      27     URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL
+
+Frame 15444: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 e0 c4 fb a8 8a 80 ff ff 00 00 00 00 1e 00   ................
+0010  00 02 00 0b 00 84 fe 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15445 22.724254      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15445: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 020000010000000000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  00 00 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15446 22.724257      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15446: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15447 22.724357      2.11.4                host                  USB      27     URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL
+
+Frame 15447: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 e0 c4 fb a8 8a 80 ff ff 00 00 00 00 1e 00   ................
+0010  01 02 00 0b 00 84 fe 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15448 22.724370      host                  2.11.4                USB      27     URB_INTERRUPT in
+
+Frame 15448: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 f0 f3 26 9f 8a 80 ff ff 00 00 00 00 09 00   ....&...........
+0010  00 02 00 0b 00 84 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15449 22.725213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15449: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15450 22.725223      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15450: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15451 22.726213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15451: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000100ffff0000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15452 22.726223      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15452: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15453 22.727213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15453: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15454 22.727223      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15454: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15455 22.728213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15455: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 020000010000000000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  00 00 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15456 22.728223      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15456: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15457 22.729213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15457: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000200ffff0000
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 02 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15458 22.729223      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15458: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 60 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...`............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  15459 22.730213      2.8.2                 host                  USB      36     URB_INTERRUPT in
+
+Frame 15459: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+HID Data: 0200000100ffff0000
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  01 02 00 08 00 82 01 09 00 00 00 02 00 00 01 00   ................
+0020  ff ff 00 00                                       ....
+
+No.     Time           Source                Destination           Protocol Length Info
+  15460 22.730222      host                  2.8.2                 USB      27     URB_INTERRUPT in
+
+Frame 15460: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+
+0000  1b 00 10 50 b6 a0 8a 80 ff ff 00 00 00 00 09 00   ...P............
+0010  00 02 00 08 00 82 01 00 00 00 00                  ...........
