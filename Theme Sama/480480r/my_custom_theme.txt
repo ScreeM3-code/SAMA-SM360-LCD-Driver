@@ -1,0 +1,12 @@
+# Mon thème personnalisé
+VIDEO: theme10.mp4
+
+# Heure en gros au centre
+TEXT: x=200, y=300, size=80, color=#FFFFFF, text="{time}"
+
+# Date en petit en bas
+TEXT: x=200, y=400, size=40, color=#AAAAAA, text="{date}"
+
+# Texte fixe coloré
+TEXT: x=100, y=100, size=50, color=#FF0000, text="SAMA 360"
+
